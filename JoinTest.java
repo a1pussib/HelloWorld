@@ -13,7 +13,7 @@ public static void main(String[] args) {
 		}catch(InterruptedException e){
 			e.printStackTrace();
 		}
-		System.out.println("这是糟糕的第"+i+"天");
+		System.out.println("杈撳嚭"+i);
 		try{
 			thread.wait();
 		}catch(InterruptedException e){
